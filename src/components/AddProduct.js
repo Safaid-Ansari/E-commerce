@@ -156,7 +156,7 @@ const AddProduct = () => {
               value="SignUp"
               onClick={createProduct}
             >
-              Create Now!
+              Add
             </Button>
           </Paper>
         </div>

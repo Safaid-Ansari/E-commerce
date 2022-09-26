@@ -13,16 +13,28 @@ const Navbar = () => {
           <Link to={`/`} style={{ color: "white", textDecoration: "none" }}>
             E-commerce
           </Link>
+          <Link
+            to={`/`}
+            style={{
+              color: "white",
+              textDecoration: "none",
+              marginLeft: "40px",
+            }}
+          >
+            Products
+          </Link>
 
           <Link to={`/addProduct`} style={{ textDecoration: "none" }}>
-            <span className="mx-5 text-white" style={{ fontSize: "15px" }}>
-              Add a Product
+            <span className="mx-5 text-white" style={{ fontSize: "20px" }}>
+              Add a Product <i className="fas fa-plus"></i>
             </span>
           </Link>
-          <span style={{ fontSize: "15px" }}>Help</span>
         </span>
         <div className="cart">
-          <Link to={`/Cart`} style={{ textDecoration: "none" }}>
+          <Link
+            to={`/Cart`}
+            style={{ textDecoration: "none", fontSize: "15px" }}
+          >
             <span>
               <i className="fas fa-cart-plus"></i>
             </span>
