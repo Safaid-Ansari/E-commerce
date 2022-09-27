@@ -40,3 +40,14 @@
   position: relative;
   top: -15px;
 }
+
+@media screen and (max-width: 414px) {
+  body {
+    background-color: lightgreen;
+  }
+  .my_shop {
+    font-size: 15px;
+    margin-top: 0;
+    margin-left: -90px;
+  }
+}
